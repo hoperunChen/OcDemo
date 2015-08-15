@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Client.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Client *myClient = [[Client alloc] init];
+        [myClient startUp];
     }
     return 0;
 }

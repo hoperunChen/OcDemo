@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>06FB88E6-22A5-47AB-AEF6-87F45ADB12E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OcDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BEE716349D350471672856A004EB12A3EC1E94D8</key>
+		<string>https://github.com/hoperunChen/OcDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OcDemo/OcDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BEE716349D350471672856A004EB12A3EC1E94D8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hoperunChen/OcDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BEE716349D350471672856A004EB12A3EC1E94D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEE716349D350471672856A004EB12A3EC1E94D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OcDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

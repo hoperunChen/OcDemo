@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2ABAA91B7F33C800EBFEE9 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2ABAA81B7F33C800EBFEE9 /* Console.m */; };
+		4F2ABAAC1B7F4D3000EBFEE9 /* ConvertUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2ABAAB1B7F4D3000EBFEE9 /* ConvertUtils.m */; };
 		4F6E017F1B7F2DEC00FD5523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E017E1B7F2DEC00FD5523 /* main.m */; };
+		4F6E01871B7F300D00FD5523 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E01861B7F300D00FD5523 /* Client.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F2ABAA71B7F33C800EBFEE9 /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Console.h; path = client/Console.h; sourceTree = "<group>"; };
+		4F2ABAA81B7F33C800EBFEE9 /* Console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Console.m; path = client/Console.m; sourceTree = "<group>"; };
+		4F2ABAAA1B7F4D3000EBFEE9 /* ConvertUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvertUtils.h; path = utils/ConvertUtils.h; sourceTree = "<group>"; };
+		4F2ABAAB1B7F4D3000EBFEE9 /* ConvertUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConvertUtils.m; path = utils/ConvertUtils.m; sourceTree = "<group>"; };
 		4F6E017B1B7F2DEC00FD5523 /* OcDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OcDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6E017E1B7F2DEC00FD5523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F6E01851B7F300D00FD5523 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = client/Client.h; sourceTree = "<group>"; };
+		4F6E01861B7F300D00FD5523 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = client/Client.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				4F6E017E1B7F2DEC00FD5523 /* main.m */,
+				4F6E01851B7F300D00FD5523 /* Client.h */,
+				4F6E01861B7F300D00FD5523 /* Client.m */,
+				4F2ABAA71B7F33C800EBFEE9 /* Console.h */,
+				4F2ABAA81B7F33C800EBFEE9 /* Console.m */,
+				4F2ABAAA1B7F4D3000EBFEE9 /* ConvertUtils.h */,
+				4F2ABAAB1B7F4D3000EBFEE9 /* ConvertUtils.m */,
 			);
 			path = OcDemo;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6E01871B7F300D00FD5523 /* Client.m in Sources */,
+				4F2ABAA91B7F33C800EBFEE9 /* Console.m in Sources */,
 				4F6E017F1B7F2DEC00FD5523 /* main.m in Sources */,
+				4F2ABAAC1B7F4D3000EBFEE9 /* ConvertUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +253,7 @@
 				4F6E01841B7F2DEC00FD5523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
