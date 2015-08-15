@@ -17,4 +17,11 @@
     int i = [string_content intValue];
     return i;
 }
+
++(NSString*)charToNSString:(char*)cv{
+    NSString *string_content = [[NSString alloc] initWithCString:(const char*)cv
+                                                        encoding:NSASCIIStringEncoding];
+    return string_content;
+
+}
 @end

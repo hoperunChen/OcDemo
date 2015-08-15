@@ -8,41 +8,53 @@
 
 #import "Client.h"
 #import "Console.h"
+#import "Controller.h"
+#import "PageConstants.h"
+
 
 @implementation Client
-    - (void)startUp{
-        NSLog(@"startUp");
-        [self showLoginPage];
-    }
+{
+    Controller *_controller;
+}
 
-    - (void)showLoginPage{
-    loginPage:
-        [Console logShopName];
-        NSLog(@"1.登陆");
-        NSLog(@"2.退出");
-        NSLog(@"请选择");
-        int inValue = [Console scanfInt];
-        switch (inValue) {
-            case 1:
-                //login
-                NSLog(@"go login");
-                break;
-            case 2:
-                //exit
-                NSLog(@"exit");
-                break;
-            default:
-                goto loginPage;
-                break;
-        }
-        
-//        char inValue[100];
-////        scanf();
-//        scanf("%s",inValue);  //接受控制台输入字符串
-//        gets(inValue, 100, fp);  gets会导致越界  不支持使用
-        
-//        NSLog(@"%s",inValue);
+- (void)startUp{
+    NSLog(@"startUp");
+    _controller = [[Controller alloc] init];
+    [self index];
+    
+}
+
+/**
+ 首页
+ */
+- (void)index{
+loginPage:
+    [_controller dispatch:INDEX_PAGE];
+    int inValue = [Console scanfInt];
+    switch (inValue) {
+        case 1:
+            [self login];
+            break;
+        case 2:
+            //exit
+            NSLog(@"exit");
+            break;
+        default:
+            goto loginPage;
+            break;
     }
+}
+
+/**
+ 登陆
+ */
+-(void)login{
+    NSLog(@"请输入账号:");
+    NSString *userName = [Console scanfString];
+    NSLog(@"请输入密码:");
+    NSString *passWord = [Console scanfString];
+    NSLog(@"新建service判断登陆");
+}
 
 
 @end

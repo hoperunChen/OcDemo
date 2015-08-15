@@ -28,5 +28,12 @@ static NSString *_shopName = @"myShopName";//应该从配置文件读取
     return [ConvertUtils charToInt:value] ;
 }
 
++(NSString*)scanfString{
+    
+    char value[1024];
+    scanf("%s",value);
+    return [ConvertUtils charToNSString:value];
+}
+
 
 @end

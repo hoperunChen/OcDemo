@@ -13,4 +13,9 @@
  从char转换为int类型
  */
 +(int)charToInt:(char*)cv;
+
+/**
+ 从char转换为NSString类型
+ */
++(NSString*)charToNSString:(char*)cv;
 @end

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F18F7EF1B7F8C5100248AA7 /* BasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7EE1B7F8C5100248AA7 /* BasePage.m */; };
+		4F18F7F21B7F8CAB00248AA7 /* IndexPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F11B7F8CAB00248AA7 /* IndexPage.m */; };
+		4F18F7F51B7F8DBC00248AA7 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F41B7F8DBC00248AA7 /* Controller.m */; };
+		4F18F7F81B7F9AF500248AA7 /* PageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F71B7F9AF500248AA7 /* PageConstants.m */; };
+		4F18F81C1B7FA9A600248AA7 /* Testgroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F81B1B7FA9A600248AA7 /* Testgroup.m */; };
 		4F2ABAA91B7F33C800EBFEE9 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2ABAA81B7F33C800EBFEE9 /* Console.m */; };
 		4F2ABAAC1B7F4D3000EBFEE9 /* ConvertUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2ABAAB1B7F4D3000EBFEE9 /* ConvertUtils.m */; };
 		4F6E017F1B7F2DEC00FD5523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E017E1B7F2DEC00FD5523 /* main.m */; };
@@ -26,6 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F18F7ED1B7F8C5100248AA7 /* BasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasePage.h; path = client/BasePage.h; sourceTree = "<group>"; };
+		4F18F7EE1B7F8C5100248AA7 /* BasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePage.m; path = client/BasePage.m; sourceTree = "<group>"; };
+		4F18F7F01B7F8CAB00248AA7 /* IndexPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexPage.h; path = client/IndexPage.h; sourceTree = "<group>"; };
+		4F18F7F11B7F8CAB00248AA7 /* IndexPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndexPage.m; path = client/IndexPage.m; sourceTree = "<group>"; };
+		4F18F7F31B7F8DBC00248AA7 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = client/Controller.h; sourceTree = "<group>"; };
+		4F18F7F41B7F8DBC00248AA7 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = client/Controller.m; sourceTree = "<group>"; };
+		4F18F7F61B7F9AF500248AA7 /* PageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageConstants.h; path = client/PageConstants.h; sourceTree = "<group>"; };
+		4F18F7F71B7F9AF500248AA7 /* PageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageConstants.m; path = client/PageConstants.m; sourceTree = "<group>"; };
+		4F18F81A1B7FA9A600248AA7 /* Testgroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Testgroup.h; path = OcDemo/utils/Testgroup.h; sourceTree = "<group>"; };
+		4F18F81B1B7FA9A600248AA7 /* Testgroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Testgroup.m; path = OcDemo/utils/Testgroup.m; sourceTree = "<group>"; };
 		4F2ABAA71B7F33C800EBFEE9 /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Console.h; path = client/Console.h; sourceTree = "<group>"; };
 		4F2ABAA81B7F33C800EBFEE9 /* Console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Console.m; path = client/Console.m; sourceTree = "<group>"; };
 		4F2ABAAA1B7F4D3000EBFEE9 /* ConvertUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvertUtils.h; path = utils/ConvertUtils.h; sourceTree = "<group>"; };
@@ -47,10 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F18F8191B7FA97900248AA7 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F18F81A1B7FA9A600248AA7 /* Testgroup.h */,
+				4F18F81B1B7FA9A600248AA7 /* Testgroup.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
 		4F6E01721B7F2DEC00FD5523 = {
 			isa = PBXGroup;
 			children = (
-				4F6E017D1B7F2DEC00FD5523 /* OcDemo */,
+				4F18F8191B7FA97900248AA7 /* utils */,
+				4F6E017D1B7F2DEC00FD5523 /* client */,
 				4F6E017C1B7F2DEC00FD5523 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,17 +88,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F6E017D1B7F2DEC00FD5523 /* OcDemo */ = {
+		4F6E017D1B7F2DEC00FD5523 /* client */ = {
 			isa = PBXGroup;
 			children = (
 				4F6E017E1B7F2DEC00FD5523 /* main.m */,
 				4F6E01851B7F300D00FD5523 /* Client.h */,
 				4F6E01861B7F300D00FD5523 /* Client.m */,
+				4F18F7F31B7F8DBC00248AA7 /* Controller.h */,
+				4F18F7F41B7F8DBC00248AA7 /* Controller.m */,
 				4F2ABAA71B7F33C800EBFEE9 /* Console.h */,
 				4F2ABAA81B7F33C800EBFEE9 /* Console.m */,
 				4F2ABAAA1B7F4D3000EBFEE9 /* ConvertUtils.h */,
 				4F2ABAAB1B7F4D3000EBFEE9 /* ConvertUtils.m */,
+				4F18F7ED1B7F8C5100248AA7 /* BasePage.h */,
+				4F18F7EE1B7F8C5100248AA7 /* BasePage.m */,
+				4F18F7F01B7F8CAB00248AA7 /* IndexPage.h */,
+				4F18F7F11B7F8CAB00248AA7 /* IndexPage.m */,
+				4F18F7F61B7F9AF500248AA7 /* PageConstants.h */,
+				4F18F7F71B7F9AF500248AA7 /* PageConstants.m */,
 			);
+			name = client;
 			path = OcDemo;
 			sourceTree = "<group>";
 		};
@@ -135,8 +169,13 @@
 			files = (
 				4F6E01871B7F300D00FD5523 /* Client.m in Sources */,
 				4F2ABAA91B7F33C800EBFEE9 /* Console.m in Sources */,
+				4F18F7EF1B7F8C5100248AA7 /* BasePage.m in Sources */,
 				4F6E017F1B7F2DEC00FD5523 /* main.m in Sources */,
+				4F18F7F81B7F9AF500248AA7 /* PageConstants.m in Sources */,
+				4F18F81C1B7FA9A600248AA7 /* Testgroup.m in Sources */,
 				4F2ABAAC1B7F4D3000EBFEE9 /* ConvertUtils.m in Sources */,
+				4F18F7F51B7F8DBC00248AA7 /* Controller.m in Sources */,
+				4F18F7F21B7F8CAB00248AA7 /* IndexPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

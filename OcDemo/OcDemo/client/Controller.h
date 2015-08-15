@@ -1,5 +1,5 @@
 //
-//  Console.h
+//  Controller.h
 //  OcDemo
 //
 //  Created by 陈锐 on 15/8/15.
@@ -8,14 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Console : NSObject
+
+@interface Controller : NSObject
 
 
-+(NSString*)getShopName;
 
-+(void)logShopName;
 
-+(int)scanfInt;
+-(void)dispatch:(NSString*)key;
 
-+(NSString*)scanfString;
 @end
