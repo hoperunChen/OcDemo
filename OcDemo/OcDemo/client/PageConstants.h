@@ -10,6 +10,7 @@
 
 
 extern NSString * INDEX_PAGE;
+extern NSString * MAIN_PAGE;
 
 @interface PageConstants : NSObject
 

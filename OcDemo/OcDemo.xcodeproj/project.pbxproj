@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F067C8E1B82231200EC5BF8 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F067C8D1B82231200EC5BF8 /* UserService.m */; };
+		4F067C911B8226FE00EC5BF8 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F067C901B8226FE00EC5BF8 /* MainPage.m */; };
 		4F18F7EF1B7F8C5100248AA7 /* BasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7EE1B7F8C5100248AA7 /* BasePage.m */; };
 		4F18F7F21B7F8CAB00248AA7 /* IndexPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F11B7F8CAB00248AA7 /* IndexPage.m */; };
 		4F18F7F51B7F8DBC00248AA7 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F41B7F8DBC00248AA7 /* Controller.m */; };
@@ -31,6 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F067C8C1B82231200EC5BF8 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserService.h; path = OcDemo/service/UserService.h; sourceTree = "<group>"; };
+		4F067C8D1B82231200EC5BF8 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserService.m; path = OcDemo/service/UserService.m; sourceTree = "<group>"; };
+		4F067C8F1B8226FE00EC5BF8 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPage.h; path = client/MainPage.h; sourceTree = "<group>"; };
+		4F067C901B8226FE00EC5BF8 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPage.m; path = client/MainPage.m; sourceTree = "<group>"; };
 		4F18F7ED1B7F8C5100248AA7 /* BasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasePage.h; path = client/BasePage.h; sourceTree = "<group>"; };
 		4F18F7EE1B7F8C5100248AA7 /* BasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePage.m; path = client/BasePage.m; sourceTree = "<group>"; };
 		4F18F7F01B7F8CAB00248AA7 /* IndexPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexPage.h; path = client/IndexPage.h; sourceTree = "<group>"; };
@@ -62,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F067C8B1B8222F300EC5BF8 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				4F067C8C1B82231200EC5BF8 /* UserService.h */,
+				4F067C8D1B82231200EC5BF8 /* UserService.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
 		4F18F8191B7FA97900248AA7 /* utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +89,7 @@
 		4F6E01721B7F2DEC00FD5523 = {
 			isa = PBXGroup;
 			children = (
+				4F067C8B1B8222F300EC5BF8 /* service */,
 				4F18F8191B7FA97900248AA7 /* utils */,
 				4F6E017D1B7F2DEC00FD5523 /* client */,
 				4F6E017C1B7F2DEC00FD5523 /* Products */,
@@ -96,6 +112,8 @@
 				4F6E01861B7F300D00FD5523 /* Client.m */,
 				4F18F7F31B7F8DBC00248AA7 /* Controller.h */,
 				4F18F7F41B7F8DBC00248AA7 /* Controller.m */,
+				4F067C8F1B8226FE00EC5BF8 /* MainPage.h */,
+				4F067C901B8226FE00EC5BF8 /* MainPage.m */,
 				4F2ABAA71B7F33C800EBFEE9 /* Console.h */,
 				4F2ABAA81B7F33C800EBFEE9 /* Console.m */,
 				4F2ABAAA1B7F4D3000EBFEE9 /* ConvertUtils.h */,
@@ -175,6 +193,8 @@
 				4F18F81C1B7FA9A600248AA7 /* Testgroup.m in Sources */,
 				4F2ABAAC1B7F4D3000EBFEE9 /* ConvertUtils.m in Sources */,
 				4F18F7F51B7F8DBC00248AA7 /* Controller.m in Sources */,
+				4F067C911B8226FE00EC5BF8 /* MainPage.m in Sources */,
+				4F067C8E1B82231200EC5BF8 /* UserService.m in Sources */,
 				4F18F7F21B7F8CAB00248AA7 /* IndexPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

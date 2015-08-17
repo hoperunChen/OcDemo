@@ -10,6 +10,7 @@
 #import "Console.h"
 #import "Controller.h"
 #import "PageConstants.h"
+#import "UserService.h"
 
 
 @implementation Client
@@ -54,6 +55,18 @@ loginPage:
     NSLog(@"请输入密码:");
     NSString *passWord = [Console scanfString];
     NSLog(@"新建service判断登陆");
+    UserService *userService = [[UserService alloc] init];
+    Boolean flag = [userService userLogin:userName :passWord];
+    if(flag){
+        NSLog(@"登陆成功");
+        [self main];
+    }else
+        NSLog(@"登陆失败");
+}
+
+-(void)main{
+    [_controller dispatch:MAIN_PAGE];
+    
 }
 
 

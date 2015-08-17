@@ -9,6 +9,7 @@
 #import "Controller.h"
 #import "Console.h"
 #import "IndexPage.h"
+#import "MainPage.h"
 #import "PageConstants.h"
 
 
@@ -26,6 +27,8 @@
     BasePage *page;
     if(key == INDEX_PAGE)
         page = [[IndexPage alloc] init];
+    else if(key == MAIN_PAGE)
+        page = [[MainPage alloc] init];
     return page;
 }
 @end
