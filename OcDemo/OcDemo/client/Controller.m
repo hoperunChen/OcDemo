@@ -10,6 +10,7 @@
 #import "Console.h"
 #import "IndexPage.h"
 #import "MainPage.h"
+#import "BackPage.h"
 #import "PageConstants.h"
 
 
@@ -30,7 +31,8 @@
     else if(key == MAIN_PAGE)
         page = [[MainPage alloc] init];
     else if(key == BACK_PAGE)
-        page = 
+        page = [[BackPage alloc] init];
+    
     return page;
 }
 @end

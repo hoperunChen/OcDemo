@@ -11,6 +11,7 @@
 #import "Controller.h"
 #import "PageConstants.h"
 #import "UserService.h"
+#import "BuyService.h"
 
 
 @implementation Client
@@ -71,10 +72,10 @@ mainPage:
     int inValue = [Console scanfInt];
     switch (inValue) {
         case 1:
-            NSLog(@"后台管理");
+            [self back];
             break;
         case 2:
-            NSLog(@"购物");
+            [self buy];
             break;
         case 3:
             NSLog(@"loginout");
@@ -91,6 +92,11 @@ mainPage:
 -(void)back{
 backPage:
     [_controller dispatch:BACK_PAGE];
+}
+
+-(void)buy{
+    BuyService *buyService = [[BuyService alloc] init];
+    [buyService buy];
 }
 
 

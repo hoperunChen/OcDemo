@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4F067C8E1B82231200EC5BF8 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F067C8D1B82231200EC5BF8 /* UserService.m */; };
-		4F067C911B8226FE00EC5BF8 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F067C901B8226FE00EC5BF8 /* MainPage.m */; };
-		4F18F7EF1B7F8C5100248AA7 /* BasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7EE1B7F8C5100248AA7 /* BasePage.m */; };
-		4F18F7F21B7F8CAB00248AA7 /* IndexPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F11B7F8CAB00248AA7 /* IndexPage.m */; };
 		4F18F7F51B7F8DBC00248AA7 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F41B7F8DBC00248AA7 /* Controller.m */; };
-		4F18F7F81B7F9AF500248AA7 /* PageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18F7F71B7F9AF500248AA7 /* PageConstants.m */; };
+		4F1AEA081B836CE70031D2BD /* BasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AEA011B836CE70031D2BD /* BasePage.m */; };
+		4F1AEA091B836CE70031D2BD /* IndexPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AEA031B836CE70031D2BD /* IndexPage.m */; };
+		4F1AEA0A1B836CE70031D2BD /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AEA051B836CE70031D2BD /* MainPage.m */; };
+		4F1AEA0B1B836CE70031D2BD /* PageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AEA071B836CE70031D2BD /* PageConstants.m */; };
+		4F1AEA0E1B8370F60031D2BD /* BuyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AEA0D1B8370F60031D2BD /* BuyService.m */; };
 		4F2ABAA91B7F33C800EBFEE9 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2ABAA81B7F33C800EBFEE9 /* Console.m */; };
 		4F2ABAAC1B7F4D3000EBFEE9 /* ConvertUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2ABAAB1B7F4D3000EBFEE9 /* ConvertUtils.m */; };
 		4F6E017F1B7F2DEC00FD5523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E017E1B7F2DEC00FD5523 /* main.m */; };
@@ -35,16 +36,18 @@
 /* Begin PBXFileReference section */
 		4F067C8C1B82231200EC5BF8 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserService.h; path = OcDemo/service/UserService.h; sourceTree = "<group>"; };
 		4F067C8D1B82231200EC5BF8 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserService.m; path = OcDemo/service/UserService.m; sourceTree = "<group>"; };
-		4F067C8F1B8226FE00EC5BF8 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPage.h; path = OcDemo/client/MainPage.h; sourceTree = "<group>"; };
-		4F067C901B8226FE00EC5BF8 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPage.m; path = OcDemo/client/MainPage.m; sourceTree = "<group>"; };
-		4F18F7ED1B7F8C5100248AA7 /* BasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasePage.h; path = OcDemo/client/BasePage.h; sourceTree = "<group>"; };
-		4F18F7EE1B7F8C5100248AA7 /* BasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePage.m; path = OcDemo/client/BasePage.m; sourceTree = "<group>"; };
-		4F18F7F01B7F8CAB00248AA7 /* IndexPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexPage.h; path = OcDemo/client/IndexPage.h; sourceTree = "<group>"; };
-		4F18F7F11B7F8CAB00248AA7 /* IndexPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndexPage.m; path = OcDemo/client/IndexPage.m; sourceTree = "<group>"; };
 		4F18F7F31B7F8DBC00248AA7 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = client/Controller.h; sourceTree = "<group>"; };
 		4F18F7F41B7F8DBC00248AA7 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = client/Controller.m; sourceTree = "<group>"; };
-		4F18F7F61B7F9AF500248AA7 /* PageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageConstants.h; path = OcDemo/client/PageConstants.h; sourceTree = "<group>"; };
-		4F18F7F71B7F9AF500248AA7 /* PageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageConstants.m; path = OcDemo/client/PageConstants.m; sourceTree = "<group>"; };
+		4F1AEA001B836CE70031D2BD /* BasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasePage.h; path = OcDemo/pages/BasePage.h; sourceTree = "<group>"; };
+		4F1AEA011B836CE70031D2BD /* BasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePage.m; path = OcDemo/pages/BasePage.m; sourceTree = "<group>"; };
+		4F1AEA021B836CE70031D2BD /* IndexPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexPage.h; path = OcDemo/pages/IndexPage.h; sourceTree = "<group>"; };
+		4F1AEA031B836CE70031D2BD /* IndexPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndexPage.m; path = OcDemo/pages/IndexPage.m; sourceTree = "<group>"; };
+		4F1AEA041B836CE70031D2BD /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPage.h; path = OcDemo/pages/MainPage.h; sourceTree = "<group>"; };
+		4F1AEA051B836CE70031D2BD /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPage.m; path = OcDemo/pages/MainPage.m; sourceTree = "<group>"; };
+		4F1AEA061B836CE70031D2BD /* PageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageConstants.h; path = OcDemo/pages/PageConstants.h; sourceTree = "<group>"; };
+		4F1AEA071B836CE70031D2BD /* PageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageConstants.m; path = OcDemo/pages/PageConstants.m; sourceTree = "<group>"; };
+		4F1AEA0C1B8370F60031D2BD /* BuyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyService.h; path = OcDemo/service/BuyService.h; sourceTree = "<group>"; };
+		4F1AEA0D1B8370F60031D2BD /* BuyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyService.m; path = OcDemo/service/BuyService.m; sourceTree = "<group>"; };
 		4F2ABAA71B7F33C800EBFEE9 /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Console.h; path = client/Console.h; sourceTree = "<group>"; };
 		4F2ABAA81B7F33C800EBFEE9 /* Console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Console.m; path = client/Console.m; sourceTree = "<group>"; };
 		4F2ABAAA1B7F4D3000EBFEE9 /* ConvertUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvertUtils.h; path = OcDemo/utils/ConvertUtils.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 			children = (
 				4F067C8C1B82231200EC5BF8 /* UserService.h */,
 				4F067C8D1B82231200EC5BF8 /* UserService.m */,
+				4F1AEA0C1B8370F60031D2BD /* BuyService.h */,
+				4F1AEA0D1B8370F60031D2BD /* BuyService.m */,
 			);
 			name = service;
 			sourceTree = "<group>";
@@ -123,15 +128,15 @@
 		4F8C029A1B83661E00274AC0 /* pages */ = {
 			isa = PBXGroup;
 			children = (
-				4F067C8F1B8226FE00EC5BF8 /* MainPage.h */,
-				4F067C901B8226FE00EC5BF8 /* MainPage.m */,
-				4F18F7ED1B7F8C5100248AA7 /* BasePage.h */,
-				4F18F7EE1B7F8C5100248AA7 /* BasePage.m */,
-				4F18F7F01B7F8CAB00248AA7 /* IndexPage.h */,
-				4F18F7F11B7F8CAB00248AA7 /* IndexPage.m */,
-				4F18F7F61B7F9AF500248AA7 /* PageConstants.h */,
-				4F18F7F71B7F9AF500248AA7 /* PageConstants.m */,
 				4F8C029B1B836BB200274AC0 /* BackPage.h */,
+				4F1AEA001B836CE70031D2BD /* BasePage.h */,
+				4F1AEA011B836CE70031D2BD /* BasePage.m */,
+				4F1AEA021B836CE70031D2BD /* IndexPage.h */,
+				4F1AEA031B836CE70031D2BD /* IndexPage.m */,
+				4F1AEA041B836CE70031D2BD /* MainPage.h */,
+				4F1AEA051B836CE70031D2BD /* MainPage.m */,
+				4F1AEA061B836CE70031D2BD /* PageConstants.h */,
+				4F1AEA071B836CE70031D2BD /* PageConstants.m */,
 				4F8C029C1B836BB200274AC0 /* BackPage.m */,
 			);
 			name = pages;
@@ -195,15 +200,16 @@
 			files = (
 				4F6E01871B7F300D00FD5523 /* Client.m in Sources */,
 				4F2ABAA91B7F33C800EBFEE9 /* Console.m in Sources */,
-				4F18F7EF1B7F8C5100248AA7 /* BasePage.m in Sources */,
 				4F6E017F1B7F2DEC00FD5523 /* main.m in Sources */,
-				4F18F7F81B7F9AF500248AA7 /* PageConstants.m in Sources */,
 				4F2ABAAC1B7F4D3000EBFEE9 /* ConvertUtils.m in Sources */,
+				4F1AEA0E1B8370F60031D2BD /* BuyService.m in Sources */,
+				4F1AEA0B1B836CE70031D2BD /* PageConstants.m in Sources */,
 				4F18F7F51B7F8DBC00248AA7 /* Controller.m in Sources */,
+				4F1AEA0A1B836CE70031D2BD /* MainPage.m in Sources */,
+				4F1AEA091B836CE70031D2BD /* IndexPage.m in Sources */,
+				4F1AEA081B836CE70031D2BD /* BasePage.m in Sources */,
 				4F8C029D1B836BB200274AC0 /* BackPage.m in Sources */,
-				4F067C911B8226FE00EC5BF8 /* MainPage.m in Sources */,
 				4F067C8E1B82231200EC5BF8 /* UserService.m in Sources */,
-				4F18F7F21B7F8CAB00248AA7 /* IndexPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
