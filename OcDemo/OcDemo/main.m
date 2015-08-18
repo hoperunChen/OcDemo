@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Client.h"
-#import "Testgroup.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

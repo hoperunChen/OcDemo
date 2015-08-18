@@ -29,6 +29,8 @@
         page = [[IndexPage alloc] init];
     else if(key == MAIN_PAGE)
         page = [[MainPage alloc] init];
+    else if(key == BACK_PAGE)
+        page = 
     return page;
 }
 @end

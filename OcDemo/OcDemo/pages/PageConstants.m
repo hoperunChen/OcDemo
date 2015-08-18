@@ -11,6 +11,7 @@
 
 NSString * INDEX_PAGE = @"sss";
 NSString * MAIN_PAGE = @"main";
+NSString * BACK_PAGE = @"back";
 
 @implementation PageConstants
 

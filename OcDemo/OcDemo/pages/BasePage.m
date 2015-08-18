@@ -22,7 +22,7 @@
 }
 
 -(void)beforShow{
-//    NSLog(@"super beforShow");
+    NSLog(@"******************************");
 }
 
 -(void)showTitle{
@@ -39,6 +39,7 @@
 
 -(void)afterShow{
 //    NSLog(@"super afterShow");
+    NSLog(@"******************************");
 }
 
 @end

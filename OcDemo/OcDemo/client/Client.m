@@ -65,8 +65,32 @@ loginPage:
 }
 
 -(void)main{
+mainPage:
     [_controller dispatch:MAIN_PAGE];
-    
+    NSLog(@"请输入:");
+    int inValue = [Console scanfInt];
+    switch (inValue) {
+        case 1:
+            NSLog(@"后台管理");
+            break;
+        case 2:
+            NSLog(@"购物");
+            break;
+        case 3:
+            NSLog(@"loginout");
+            break;
+        case 4:
+            NSLog(@"exit");
+            break;
+        default:
+            goto mainPage;
+            break;
+    }
+}
+
+-(void)back{
+backPage:
+    [_controller dispatch:BACK_PAGE];
 }
 
 
