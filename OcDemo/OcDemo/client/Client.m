@@ -96,7 +96,8 @@ backPage:
 
 -(void)buy{
     BuyService *buyService = [[BuyService alloc] init];
-    [buyService buy];
+    NSNumber *countPrice = [buyService buy];
+    NSLog(@"您共消费:%@元",countPrice);
 }
 
 

@@ -10,5 +10,5 @@
 
 @interface BuyService : NSObject
 
--(double)buy;
+-(NSNumber*)buy;
 @end
